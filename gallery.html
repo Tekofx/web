@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+        <script src="js/script.js"></script>
+
+    </head>
+
+    <body>
+        <!--Header-->
+        <img class="header" src="img/header.jpg" alt="">
+        
+        
+        <!--NavBar-->
+        <nav class="nav">
+            <ul class="nav_list">
+                <li style="display: inline;"><img class="logo" src="img/logo.png" alt=""></li>
+                <li class="nav_list_item"><a class="nav_list_item_text" href="index.html">Home</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_text" href="about_me.html">About me</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_text" href="gallery.html">Gallery</a></li>
+                <li class="nav_list_item"><a class="nav_list_item_text" href="contact.html">Contact</a></li>
+
+            </ul>
+        </nav>
+
+
+
+
+
+
+
+
+
+
+        <h2>Gallery</h2>
+        <div id="gallery_bar">
+            <button class="gallery_button" onclick="select('all')"> Show all</button>
+            <button class="gallery_button" onclick="select('76968067')"> Art</button>
+            <button class="gallery_button" onclick="select('76968076')"> Photograpy</button>
+         </div>
+
+        
+
+
+
+
+
+
+
+
+
+        <div id="deviantART-gallery"></div>
+        <script src="deviantART-gallery-plugin.js"></script>
+        <script>
+            deviantARTGalleryPlugin('tekofx', '76968076', '16:9');
+        </script>
+    </body>
+
+
+
+</html>

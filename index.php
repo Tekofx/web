@@ -1,1 +1,1 @@
-include_once("index.html"); ?>
+<?phpinclude_once("index.html"); ?>
